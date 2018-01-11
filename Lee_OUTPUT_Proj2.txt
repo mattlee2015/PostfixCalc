@@ -1,0 +1,13 @@
+OUTPUT
+
+Proj 2
+
+ * Matthew Lee
+ * NetID: 29493210
+ * Mon Wed 4:50
+
+For my thought process or run steps of my code, I added comments on the "calculator" class. There it should explain the details of why I did "it in that particular order".
+
+But basically, I created boolean method to determine wheter we had operators or non-operators. Then as the mathematical function is being read through, the method would sort the necessary elements to its respected location while keeping track of the order of precedence for the operators. Then lastly, for the evaluation method of the postfix, I just used the stack methods whenever a operator was present in the stack I would have it take the top two elements, pop them, and then preform the necessary operation.
+
+I already typed/stored the math equations into my calculator class and I also created my own mathematical equation in a separate class "MyOwnTesting".
